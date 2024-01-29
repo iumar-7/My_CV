@@ -16,6 +16,7 @@ a {
 body {
   font-family: "Poppins" sans-serif;
   background-color: #fbfaf2;
+  margin: 1rem;
 }
 
 .container {
@@ -27,12 +28,19 @@ body {
 }
 
 .logo {
-    border: 1px solid red;
+   
     margin-left: 50px;
 }
 
 .logo img {
  width: 35px;
+ 
+}
+
+span {
+  font-size: 24px;
+  font-weight: bold;
+ color: #353935;
 }
 
 .menu ul {
@@ -60,3 +68,72 @@ li {
     font-size: 1.1rem;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  margin: 2rem;
+
+}
+
+.profile-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.about h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.about h1 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.button {
+  margin-top: 14px;
+}
+
+button {
+  background-color: #89CFF0; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition:   ease-in
+}
+
+button:hover {
+  background-color: #5597ba;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+.work {
+  display: block;
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 19px;
+}
+
+.work h4 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
